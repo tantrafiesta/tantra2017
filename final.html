@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script type="text/javascript" src="https://s3.amazonaws.com/codecademy-content/courses/hour-of-code/js/alphabet.js"></script>
+</head>
+<title>Tantrafiesta</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+<link href="mobile/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="mobile/css/font-awesome.min.css">
+<link rel="stylesheet" href="mobile/css/jquery.bxslider.css">
+<link rel="stylesheet" type="text/css" href="mobile/css/isotope.css" media="screen" />
+<link rel="stylesheet" href="mobile/css/animate.css">
+<link rel="stylesheet" href="mobile/js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+<link href="mobile/css/prettyPhoto.css" rel="stylesheet" />
+<link href="mobile/css/style.css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Anton|Josefin+Sans" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Patua+One|Varela+Round" rel="stylesheet">
+
+<script type="text/javascript">
+if ((navigator.userAgent.indexOf('iPhone') != -1) ||
+    (navigator.userAgent.indexOf('iPod') != -1) ||
+    (screen.width <= 699)) {
+    window.location = "mobile/mindex.html";
+    }
+    else {
+    //  Do nothing.
+    }
+</script>
+<style media="screen">
+
+
+p {
+text-align: center;
+/*font-size: 60px;*/
+}
+h1{
+  text-align: center;
+  font-size: 50px;
+
+}
+h2{
+  font-size: 30px;
+}
+h2,h3,h4,h5,h6
+{
+  text-align: center;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+blink {
+    -webkit-animation: 2s linear infinite condemned_blink_effect; // for android
+    animation: 2s linear infinite condemned_blink_effect;
+}
+@-webkit-keyframes condemned_blink_effect { // for android
+    0% {
+        visibility: hidden;
+    }
+    50% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: visible;
+    }
+}
+@keyframes condemned_blink_effect {
+    0% {
+        visibility: hidden;
+    }
+    50% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: visible;
+    }
+}
+</style>
+</head>
+<body id="top">
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row0">
+  <div id="topbar" class="hoc clear">
+    <!-- ################################################################################################ -->
+
+    <div class="fl_right">
+
+    </div>
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row1">
+  <div id="logo" class="fl_left">
+    <a href="index.html"><div id="logo1"><img src="tf3.png" style="overflow:none; margin-top:5%; margin-left:30%;" ></div></a>
+    <!--<p style="align:bottom;">Celebrating Technology.....</p>-->
+  </div>
+  <header id="header" class="hoc clear">
+    <!-- ################################################################################################ -->
+
+    <!-- ################################################################################################ -->
+    <nav id="mainav" class="fl_right">
+      <ul class="clear">
+
+      <li class="active"><a href="index.html">HOME</a></li>
+
+
+            <li ><a href="events.html">EVENTS</a></li>
+            <li ><a href="http://www.iiitnworkshop.tk">WORKSHOPS</a><ul>
+
+            </li>
+
+          </ul></li>
+            <li ><a  href="sponsor.html" >SPONSORS</a></li>
+
+            <li><a href="about.html">CONTACT US</a></li>
+
+      </ul>
+    </nav>
+
+    <!-- ################################################################################################ -->
+  </header>
+</div>
+
+<div style="background-image: url("pattern0.jpg");">
+
+<div class="container" style="background-color:#76FF03; opacity:0.6; color:white; width:100%;">
+  <div class="text-center">
+    <div class="wow bounceInDown" data-wow-offset="0" data-wow-delay="0.3s">
+      <h3></h3>
+    </div>
+    <div class="wow bounceInDown" data-wow-offset="0" data-wow-delay="0.6s">
+      <h1 style="font-family:Patua One; color:#4A148C; font-size:60px;">Indian Institute of Information Technology,</h1><h2 style="font-size:40px; color:#E65100;">Nagpur </h2>
+      <h2 style="font-family:Varela Round;">Brings You</h2>
+      <h1 ><div style="color:#FF6600; display:inline-block;">Tantra</div><div style="color:black; display:inline-block;">Fiesta</div> <div style="color:#FF6600; display:inline-block;">2k17</div></u></h1>
+      <h2 style="font-family:Varela Round;">Celebrating Technology</h2>
+
+
+    </div>
+  </div>
+</div>
+
+<div class="container" style="background-color:#EEFF41; opacity:0.6; color:black; width:100%;">
+  <div class="text-center">
+    <div class="wow bounceInDown" data-wow-offset="0" data-wow-delay="0.3s">
+      <h3></h3>
+    </div>
+    <div class="wow bounceInDown" data-wow-offset="0" data-wow-delay="0.6s">
+      <h1 style="font-family:Patua One; color:#311B92;">Join Us</h1>
+      <h2 style="font-family:Varela Round; color:#E65100;">Date: 28 Oct-29 Oct</h2>
+      <div style=s"background-color:yellow;"><div ><p id="demo" style="margin-top:5%; font-size:60px; color:#1B5E20 "></p></div></div><br><br>
+      <p style="font-size:40px;">to go!</p>
+    </div>
+  </div>
+</div>
+
+<div class="container" style="background-color:#76FF03; opacity:0.6; color:black; width:100%;">
+  <div class="text-center">
+    <div class="wow bounceInDown" data-wow-offset="0" data-wow-delay="0.3s">
+      <h3></h3>
+    </div>
+    <div class="wow bounceInDown" data-wow-offset="0" data-wow-delay="0.6s">
+      <h1 style="font-family:Patua One; color:#311B92;">News</h1>
+      <h2 style="font-family:Varela Round; color:#E65100;">
+        <ul>
+            <blink style="display:inline-block; font-size:20px;">New</blink><a href="http://www.iiitnworkshop.tk"><li style="display:inline-block; ">Cyber Security and Networking Workshop: Oct 7-8</li></a>
+        </ul>
+      </h2>
+      <div style=s"background-color:yellow;"><div ><p id="" style="margin-top:10%; font-size:60px; color:#1B5E20 "></p></div></div><br><br><br><br>
+
+    </div>
+  </div>
+</div>
+
+</div>
+
+<div class="wrapper row5">
+  <div id="copyright" class="hoc clear">
+    <!-- ################################################################################################ -->
+
+    <div style="height:50px;">
+     <a href="https://mbasic.facebook.com/iiitsapients/?_e_pi_=7%2CPAGE_ID10%2C8689133969" class="fa fa-facebook"></a>
+     <a href="https://twitter.com/TantraFiesta" class="fa fa-twitter"></a>
+     <a href="https://www.youtube.com/channel/UCcQEXD69BdMFyU8872dU2_A" class="fa fa-youtube"></a>
+     <a href="https://www.instagram.com/tantrafiesta" class="fa fa-instagram"></a>
+    </div>
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+
+<a id="backtotop" href="#top"><i class="">^</i></a>
+
+
+
+
+
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+
+
+
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Oct 27, 2017 15:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+    // Get todays date and time
+    var now = new Date().getTime();
+
+    // Find the distance between now an the count down date
+    var distance = countDownDate - now;
+
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    // Output the result in an element with id="demo"
+    document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s " ;
+
+    // If the count down is over, write some text
+    if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "EXPIRED";
+    }
+}, 1000);
+</script>
+
+
+</script>
+<script src="layout/scripts/jquery.min.js"></script>
+<script src="layout/scripts/jquery.backtotop.js"></script>
+<script src="layout/scripts/jquery.mobilemenu.js"></script>
+<!-- IE9 Placeholder Support -->
+<script src="layout/scripts/jquery.placeholder.min.js"></script>
+<!-- / IE9 Placeholder Support -->
+</body>
+
+
+</html>
