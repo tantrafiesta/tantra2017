@@ -120,7 +120,7 @@ body.page-template-page-fullsingle-split {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
-  @media (max-width: 800px) {
+  @media (max-width: 900px) {
     .fs-split {
       height: auto;
       -ms-flex-wrap: wrap;
@@ -131,7 +131,7 @@ body.page-template-page-fullsingle-split {
     background-image: url("../../images/electro.jpg");
     background-position: center center;
     background-size: cover; }
-    @media (max-width: 800px) {
+    @media (max-width: 900px) {
       .fs-split .split-image {
         height: 80vh;
         width: 100%; } }
@@ -149,7 +149,7 @@ body.page-template-page-fullsingle-split {
         -ms-flex-pack: center;
             justify-content: center;
     overflow: auto; }
-    @media (max-width: 800px) {
+    @media (max-width: 900px) {
       .fs-split .split-content {
         width: 100%;
         height: auto; } }
