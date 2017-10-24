@@ -127,8 +127,9 @@ body.page-template-page-fullsingle-split {
           flex-wrap: wrap; } }
   .fs-split .split-image {
     width: 50%;
-    height: 160vh;
+    height: 180vh;
     background-image: url("../../images/graph.jpg");
+    /*background-color: black;*/
     background-position: center center;
     background-size: cover; }
     @media (max-width: 800px) {
@@ -137,7 +138,7 @@ body.page-template-page-fullsingle-split {
         width: 100%; } }
   .fs-split .split-content {
     width: 50%;
-    min-height: 140vh;
+    min-height: 255vh;
     background-color: white;
     display: -webkit-box;
     display: -ms-flexbox;
