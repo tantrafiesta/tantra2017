@@ -126,9 +126,9 @@ body.page-template-page-fullsingle-split {
       -ms-flex-wrap: wrap;
           flex-wrap: wrap; } }
   .fs-split .split-image {
-    width: 50%;
-    height: 160vh;
-    background-image: url("../../images/code.jpg");
+    width: 0%;
+    height: 300vh;
+    background-image: url("../../images/resume.jpg");
     background-position: center center;
     background-size: cover; }
     @media (max-width: 800px) {
@@ -136,8 +136,8 @@ body.page-template-page-fullsingle-split {
         height: 80vh;
         width: 100%; } }
   .fs-split .split-content {
-    width: 50%;
-    min-height: 140vh;
+    width: 100%;
+    min-height: 250vh;
     background-color: white;
     display: -webkit-box;
     display: -ms-flexbox;
