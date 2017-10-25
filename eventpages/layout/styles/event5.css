@@ -128,7 +128,7 @@ body.page-template-page-fullsingle-split {
   .fs-split .split-image {
     width: 0%;
     height: 300vh;
-    background-image: url("../../images/resume.jpg");
+  
     background-position: center center;
     background-size: cover; }
     @media (max-width: 800px) {
