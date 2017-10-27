@@ -33,7 +33,7 @@
 						email: (process.env.GIT_EMAIL || "sean@n42designs.com")
 					}
 				},
-				src: [ "index.html", "jquery.pano.js", "image.jpg" ]
+				src: [ "index.html", "jquery.pano.js", "image.jpeg" ]
 			}
 
 		});
